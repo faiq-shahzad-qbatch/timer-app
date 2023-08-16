@@ -8,8 +8,8 @@ function TimerApp() {
 
   return (
     <>
-      <div className="App">
-        <h1>Timer App</h1>
+      <div class="flex h-screen w-full flex-col items-center justify-center space-y-8 bg-gradient-to-r from-yellow-200 via-orange-400 to-red-600 sepia">
+        <h1 className="text-4xl font-bold">Timer App</h1>
         {selectedDate ? (
           <CountdownTimer selectedDate={selectedDate} />
         ) : (
