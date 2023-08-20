@@ -1,5 +1,5 @@
-import axios from "axios";
 import _ from "lodash";
+import axios from "axios";
 
 export default async function fetchData() {
   const dataSources = ["users", "posts", "comments"];
