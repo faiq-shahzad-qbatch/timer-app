@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+
 import Card from "./components/Card";
-import fetchData from "./utils/fetchData";
 import Loader from "./components/Loader";
+import fetchData from "./utils/fetchData";
 
 function CardDisplayerApp() {
   const [posts, setPosts] = useState([]);
@@ -20,7 +21,7 @@ function CardDisplayerApp() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center bg-gray-100">
+      <div className="flex flex-col items-center justify-center bg-slate-300">
         <h1 className="text-4xl font-bold md:text-8xl">DummyJSON</h1>
         <p className="break-normal text-center text-sm font-normal md:text-lg">
           Get dummy/fake JSON data to use as placeholder in development or in
